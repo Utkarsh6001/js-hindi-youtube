@@ -25,4 +25,4 @@ const myFunction = function(){  // Function
     console.log("Hello World");
  }
 
- console.log(typeof scoreValue);
+ console.log(typeof scoreValue);//
