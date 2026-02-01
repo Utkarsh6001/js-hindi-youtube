@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run 01_variables.js",
+            "type": "shell",
+            "command": "node",
+            "args": ["01_basics/01_variables.js"],
+            "group": "build"
+        }
+    ]
+}
