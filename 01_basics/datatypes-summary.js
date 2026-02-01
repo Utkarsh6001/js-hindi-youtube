@@ -26,3 +26,28 @@ const myFunction = function(){  // Function
  }
 
  console.log(typeof scoreValue);//
+
+
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack(Primitive) , Heap(Non-Primitive)
+
+ let myYoutubename = "Utkarsh.com"; // stored in stack
+
+ let anothername = myYoutubename; // stored in stack
+ anothername = "New Utkarsh.com";
+
+ console.log(myYoutubename); // Utkarsh.com
+ console.log(anothername); // New Utkarsh.com
+
+    let userOne = {
+        email : "utkarsh@gmail.com",
+        upi: "utkarsh@oksbi"
+    }  // stored in heap
+
+    let userTwo = userOne; // stored in heap
+    userTwo.email = "newutkarsh@gmail.com";
+
+    console.log(userOne.email); // newutkarsh@gmail.com 
+    console.log(userTwo.email); // newutkarsh@gmail.com
